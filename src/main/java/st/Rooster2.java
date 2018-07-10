@@ -9,7 +9,7 @@ public class Rooster2 extends Bird {
   }
 
   @Override
-  void fly() {
+  public void fly() {
     chicken.fly();
   }
 }

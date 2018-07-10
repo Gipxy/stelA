@@ -6,6 +6,6 @@ public class Duck extends Bird implements Swimmable{
   }
 
   public void swim() {
-    SwimDelegate.swim();
+    BehaviorSimulator.swim();
   }
 }

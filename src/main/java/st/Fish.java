@@ -6,7 +6,7 @@ public abstract class Fish extends Animal implements Swimmable {
   }
 
   public void swim() {
-    SwimDelegate.swim();
+    BehaviorSimulator.swim();
   }
 
   public abstract void remark();

@@ -7,6 +7,6 @@ public class Dophin extends Animal implements Swimmable {
 
 
   public void swim() {
-    SwimDelegate.swim();
+    BehaviorSimulator.swim();
   }
 }
