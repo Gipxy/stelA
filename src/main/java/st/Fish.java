@@ -1,6 +1,6 @@
 package st;
 
-public abstract class Fish extends Animal implements Swimmable {
+public class Fish extends Animal implements Swimmable {
   String getSound() {
     throw new RuntimeException("Fish cant make sound!");
   }
@@ -9,5 +9,7 @@ public abstract class Fish extends Animal implements Swimmable {
     BehaviorSimulator.swim();
   }
 
-  public abstract void remark();
+  public void remark() {
+    System.out.println("General Fish");
+  };
 }
