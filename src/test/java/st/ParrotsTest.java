@@ -5,15 +5,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class ParrotsTest {
-  private Parrots parrots;
 
-  @Before
-  public void init() {
-
-  }
 
   @Test
   public void testSing() {
+    Parrots parrots;
 
     //living with Chicken
     parrots = ParrotsFactory.createChickenParrots();
