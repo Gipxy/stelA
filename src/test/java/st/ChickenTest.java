@@ -15,9 +15,7 @@ public class ChickenTest {
   @Test
   public void testSing() {
     String msg = chicken.getSound();
-
     String expected = "Cluck, cluck";
-
     Assert.assertEquals(expected, msg);
   }
 
