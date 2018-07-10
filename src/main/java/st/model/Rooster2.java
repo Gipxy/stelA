@@ -1,10 +1,10 @@
-package st;
+package st.model;
 
 public class Rooster2 extends Bird {
   private Chicken chicken = new Chicken();
 
   @Override
-  String getSound() {
+  public String getSound() {
     return "Cock-a-doodle-doo";
   }
 

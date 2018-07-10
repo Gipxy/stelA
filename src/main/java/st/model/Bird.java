@@ -1,11 +1,13 @@
-package st;
+package st.model;
 
-class Bird extends Animal implements Walkable, Flyable {
-  void sing() {
+import st.BehaviorSimulator;
+
+public class Bird extends Animal implements Walkable, Flyable {
+  public void sing() {
     System.out.println(getSound());
   }
 
-  String getSound() {
+  public String getSound() {
     return "I am singing";
   }
 

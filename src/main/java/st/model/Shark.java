@@ -1,4 +1,4 @@
-package st;
+package st.model;
 
 public class Shark extends Fish {
   public void remark() {

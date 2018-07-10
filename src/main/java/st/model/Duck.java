@@ -1,4 +1,6 @@
-package st;
+package st.model;
+
+import st.BehaviorSimulator;
 
 public class Duck extends Bird implements Swimmable{
   public String getSound() {

@@ -1,4 +1,6 @@
-package st;
+package st.model;
+
+import st.BehaviorSimulator;
 
 public class Caterpillar extends Animal implements Walkable, Metamorphosis {
   public void walk() {

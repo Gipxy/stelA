@@ -1,7 +1,9 @@
-package st;
+package st.model;
+
+import st.BehaviorSimulator;
 
 public class Dophin extends Animal implements Swimmable {
-  String getSound() {
+  public String getSound() {
     return "Dophin sound...";
   }
 

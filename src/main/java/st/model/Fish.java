@@ -1,7 +1,9 @@
-package st;
+package st.model;
+
+import st.BehaviorSimulator;
 
 public class Fish extends Animal implements Swimmable {
-  String getSound() {
+  public String getSound() {
     throw new RuntimeException("Fish cant make sound!");
   }
 

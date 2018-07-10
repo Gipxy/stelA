@@ -1,4 +1,7 @@
-package st;
+package st.app;
+
+import st.ParrotsFactory;
+import st.model.*;
 
 public class CountMain {
   public static void main(String[] args) {

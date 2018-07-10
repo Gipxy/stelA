@@ -3,6 +3,7 @@ package st;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import st.model.Rooster2;
 
 public class Rooster2Test {
   private Rooster2 chicken;

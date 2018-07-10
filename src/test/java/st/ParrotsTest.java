@@ -1,8 +1,8 @@
 package st;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
+import st.model.Parrots;
 
 public class ParrotsTest {
 

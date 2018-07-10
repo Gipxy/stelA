@@ -1,4 +1,6 @@
-package st;
+package st.app;
+
+import st.model.Bird;
 
 public class Solution {
   public static void main(String[] args) {

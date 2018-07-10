@@ -1,4 +1,4 @@
-package st;
+package st.model;
 
 public class Parrots extends Bird{
   private Animal living;

@@ -1,4 +1,4 @@
-package st;
+package st.model;
 
 public class Rooster extends Chicken {
   public String getSound() {

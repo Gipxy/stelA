@@ -1,9 +1,9 @@
 package st;
 
-import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import st.model.Bird;
 
 
 public class BirdSingTest {

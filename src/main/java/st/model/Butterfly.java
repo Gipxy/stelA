@@ -1,4 +1,6 @@
-package st;
+package st.model;
+
+import st.BehaviorSimulator;
 
 public class Butterfly extends Animal implements Flyable, Metamorphosis {
   public void fly() {
